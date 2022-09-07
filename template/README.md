@@ -28,6 +28,8 @@ $ <%= pmRun %> build
  - [WEAVV CSS](https://weavvcss.netlify.app) is a low-level functional CSS framework for styling user interface.
  - [Vite](https://vitejs.dev/) is a frontend build tool.
  
+# App Settings
+
 ## Vite Configs (`vite.config.js`)
 
 Edit production output assets filename.

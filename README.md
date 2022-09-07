@@ -1,4 +1,12 @@
-## Knott.JS CLI
+<p align="center">
+  <img src="knott-logo.svg" width="200px" alt="Knott JS">
+</p>
+
+# Knott CLI
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://badge.fury.io/js/knott-cli.svg)](https://badge.fury.io/js/knott-cli)
+[![npm downloads](https://img.shields.io/npm/dm/knott-cli.svg)](https://www.npmjs.com/package/knott-cli)
 
 ## Usage
 
@@ -33,4 +41,4 @@ $ knott-app my-new-project
 
 ---
 
-[MIT](https://github.com/louislow81/knott.js/blob/master/LICENSE)
+[MIT](https://github.com/louislow81/knott-cli/blob/master/LICENSE)
