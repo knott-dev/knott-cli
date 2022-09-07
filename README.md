@@ -4,6 +4,8 @@
 
 # Knott CLI
 
+Create new frontend project with Knott.JS weightless Virtual DOM web component library.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![npm version](https://badge.fury.io/js/knott-cli.svg)](https://badge.fury.io/js/knott-cli)
 [![npm downloads](https://img.shields.io/npm/dm/knott-cli.svg)](https://www.npmjs.com/package/knott-cli)

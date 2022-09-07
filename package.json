@@ -1,8 +1,8 @@
 {
   "name": "knott-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create new frontend project with Knott.JS weightless Virtual DOM web component library.",
-  "authors": "Louis Low <iamlouislow@gmail.com> (https://github.com/louislow81/knott.js)",
+  "authors": "Louis Low <iamlouislow@gmail.com> (https://github.com/louislow81/knott-cli)",
   "url": "https://github.com/louislow81/knott-cli/issues",
   "license": "MIT",
   "bin": {

@@ -9,7 +9,7 @@
 $ <%= pm %> install
 
 # preview local app
-$ <%= pmRun %> dev
+$ <%= pmRun %> preview
 
 # serve local `development` app
 $ <%= pmRun %> dev
@@ -20,7 +20,7 @@ $ <%= pmRun %> build
 
 ---
 
-# About This Template or App
+# About This Template
 
 ## Frontend Tools
 
@@ -38,11 +38,21 @@ Edit production output assets filename.
 const filename = "app";
 ```
 
-## App Manifest (`manifest.json`)
+## (PWA) Service Worker (`app.js`)
+
+Service Worker (SW) store assets in the browser to enable fast and offline access.
+
+```mjs
+import { pwa } from "knott";
+
+pwa("true"); // on
+```
+
+## (PWA) App Manifest (`manifest.json`)
 
 Edit [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) app details. Such as app splash screen color, app name, and icons.
 
-## Cache App Assets (`sw.js`)
+## (PWA) Cache App Assets (`sw.js`)
 
 Edit [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) service worker cache name.
 
@@ -60,3 +70,5 @@ const cacheAssets = [
   "/assets/app.css",
 ];
 ```
+
+# Enjoy!
