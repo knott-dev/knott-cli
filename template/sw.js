@@ -1,4 +1,4 @@
-const cacheName = "knott-app-cache-v1";
+const cacheName = "knott-app-cache-dev-version";
 
 const cacheAssets = [
   "/",

@@ -30,12 +30,16 @@ $ yarn global add knott-cli
 $ npm i -g knott-cli
 ```
 
-then simply run this command and follow the onscreen instructions,
+then simply run this command,
 
 ```bash
 # knott-app <PROJECT_NAME_OR_PROJECT_DIR>
 $ knott-app my-new-project
 ```
+
+...and follow the onscreen instructions.
+
+---
 
 ## Credits
 
