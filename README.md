@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="knott-logo.svg" width="200px" alt="Knott JS">
+  <img src="https://raw.githubusercontent.com/knott-dev/knott-js/main/banner.png" width="auto" alt="Knott JS">
 </p>
 
 # Knott CLI
@@ -41,10 +41,6 @@ $ knott-app my-new-project
 
 ---
 
-## Credits
+[Read the documentation](https://knottjs.netlify.app)
 
-[SAO](https://github.com/saojs/sao), [NodeJS](https://nodejs.org/), [Gulp](https://gulpjs.com/), [Vite](https://vitejs.dev/)
-
----
-
-[MIT](https://github.com/louislow81/knott-cli/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
