@@ -2,13 +2,15 @@
   <img src="https://raw.githubusercontent.com/knott-dev/knott-js/main/banner.png" width="auto" alt="Knott JS">
 </p>
 
-# Knott CLI
+# CLI
 
-Create new frontend project with Knott.JS weightless Virtual DOM web component library.
+Create new frontend project with [Knott.js](https://knottjs.netlify.app) lightweight Virtual DOM **web component** and **styling** library on-the-go without installing and setup everything.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![npm version](https://badge.fury.io/js/knott-cli.svg)](https://badge.fury.io/js/knott-cli)
 [![npm downloads](https://img.shields.io/npm/dm/knott-cli.svg)](https://www.npmjs.com/package/knott-cli)
+
+[**Read the documentation**](https://knottjs.netlify.app)
 
 ## Usage
 
@@ -40,7 +42,5 @@ $ knott-app my-new-project
 ...and follow the onscreen instructions.
 
 ---
-
-[Read the documentation](https://knottjs.netlify.app)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
