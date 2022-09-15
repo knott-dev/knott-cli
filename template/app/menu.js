@@ -1,16 +1,10 @@
 import { craft, mount, render } from "knott";
-
 import { centerAll, marginWide, menuButton } from "./style";
-
-const menu = [
-  { id: 1, path: "#/", title: "Home" },
-  { id: 2, path: "#/page-one", title: "Page One" },
-  { id: 3, path: "#/page-two", title: "Page Two" }
-];
 
 const mainMenu = () =>
   craft("div", {
     props: {
+      id: "menuBtn",
       class: `display-block ${centerAll}`,
     },
     expand: [
@@ -21,7 +15,6 @@ const mainMenu = () =>
           href: "#/",
         },
         text: "Home",
-        hover: [["menuHome"]],
       }),
       craft("a", {
         props: {
@@ -30,7 +23,6 @@ const mainMenu = () =>
           href: "#/page-one",
         },
         text: "Page One",
-        hover: [["menuPO"]],
       }),
       craft("a", {
         props: {
@@ -39,7 +31,6 @@ const mainMenu = () =>
           href: "#/page-two",
         },
         text: "Page Two",
-        hover: [["menuPT"]],
       }),
     ],
   });

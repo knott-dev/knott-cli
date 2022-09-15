@@ -1,7 +1,5 @@
 import { craft, mount, render } from "knott";
-
 import { cssReset, centerAll, buttonLarge } from "../style";
-
 import { mainMenu } from "../menu";
 
 const pageTwo = () =>
@@ -29,7 +27,7 @@ const pageTwo = () =>
               class: `${centerAll} flexDirection-column`,
             },
             html: `
-              <div class="paddingTop-40 paddingBottom-10 fontSize-40 fontWeight-100">
+              <div class="paddingTop-40 paddingBottom-10 fontSize-40 fontWeight-80">
                 Page <strong>Two</strong>
               </div>
               <div class="padding-0 fontSize-30 fontWeight-100">
@@ -41,7 +39,7 @@ const pageTwo = () =>
             expand: [
               craft("a", {
                 props: {
-                  class: "display-block paddingTop-20 fontSize-20",
+                  class: "display-block paddingTop-20 fontSize-20 textColor-black",
                   href: "https://knottjs.netlify.app/#routing",
                 },
                 text: "Learn how to use Routing!",
