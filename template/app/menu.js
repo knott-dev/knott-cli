@@ -5,7 +5,7 @@ const mainMenu = () =>
   craft("div", {
     props: {
       id: "menuBtn",
-      class: `display-block ${centerAll}`,
+      class: `display:block ${centerAll}`,
     },
     expand: [
       craft("a", {

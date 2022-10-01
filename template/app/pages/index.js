@@ -6,17 +6,17 @@ const homePage = () =>
   craft("body", {
     props: {
       id: "root",
-      class: `${cssReset} position-relative ${centerAll} xHeight-100vh xWidth-100%`,
+      class: `${cssReset} ${centerAll} vHeight:100vh vWidth:100%`,
     },
     expand: [
       craft("main-container", { // use semantic naming
         props: {
-          class: `display-block ${centerAll} flexDirection-column`,
+          class: `display:block ${centerAll} flexDirection:column`,
         },
         expand: [
           craft("img", {
             props: {
-              class: "height-280 width-auto objectFit-contain objectPosition-center",
+              class: "h:250 w:auto imageFit:contain imagePosition:center",
               src: "https://raw.githubusercontent.com/knott-dev/knott-js/main/banner.png",
               alt: "Knott JS",
               loading: "lazy",
@@ -24,14 +24,14 @@ const homePage = () =>
           }),
           craft("section-container", { // use semantic naming
             props: {
-              class: `${centerAll} flexDirection-column`,
+              class: `${centerAll} flexDirection:column`,
             },
             html: `
-              <div class="paddingTop-40 paddingBottom-10 fontSize-40 fontWeight-80">
+              <div class="pt:40 pb:10 textSize:40 fontWeight:light">
                 Welcome to <strong>Knott.js</strong>
               </div>
-              <div class="padding-0 fontSize-30 fontWeight-100">
-                Web Component, Styling, and Virtual DOM.
+              <div class="p:0 textSize:30 fontWeight:100">
+                Web Component, Virtual CSS, and Virtual DOM.
               </div>
             `,
           }),
@@ -39,8 +39,9 @@ const homePage = () =>
             expand: [
               craft("a", {
                 props: {
-                  class: "display-block paddingTop-20 fontSize-20 textColor-black",
+                  class: "display:block pt:20 textSize:20 textColor:black",
                   href: "https://knottjs.netlify.app/#styling",
+                  target: "_blank",
                 },
                 text: "Learn how to use Style! No CSS, No Payload.",
               }),
