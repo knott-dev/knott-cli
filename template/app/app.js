@@ -1,4 +1,4 @@
-import { route, router, pwa } from "knott";
+import { route, router, cache } from "knott";
 
 // https://knottjs.netlify.app/#import-component
 import { homePage } from "./pages/index";
@@ -23,5 +23,5 @@ pages.forEach((alias) => {
 router();
 
 // (https://knottjs.netlify.app/#service-worker)
-pwa(true);
+cache(true);
 
